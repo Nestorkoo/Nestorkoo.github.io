@@ -1,0 +1,193 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #2f2e36 !important;
+    color: white !important;
+}
+
+.main_block {
+    max-width: 990px;
+    height: 830px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+}
+
+
+.left_block {
+    padding: 8px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #939395;
+    border-radius: 40px 0px 0px 40px;
+    border-right: 0px;
+    padding-top: 70px;
+}
+
+.circle {
+    width: 130px;
+    height: 130px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 0 auto;
+    object-fit: cover;
+}
+
+.right_block {
+    overflow: hidden;
+    flex: 3;
+    border-radius: 0px 40px 40px 0;
+    padding: 8px;
+    border: 2px solid #939395;
+
+}
+
+.right_content::-webkit-scrollbar {
+    width: 8px;
+}
+
+.right_content::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.right_content::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+}
+
+/* Handle */
+.right_content::-webkit-scrollbar-thumb {
+    background: #e4aa45;
+    border-radius: 10px;
+    border: 1px solid #e4aa45;
+}
+
+.right_content {
+    overflow-y: scroll;
+    padding: 20px;
+    height: 100%;
+}
+
+.yellow_title {
+    color: #e4aa45;
+    font-weight: 700;
+}
+
+.name {
+    padding-top: 4px;
+    font-weight: 900;
+}
+
+.gmail {
+    padding-top: 8px;
+    font-weight: 900;
+}
+
+.inst {
+    font-weight: 900;
+    padding-top: 40px;
+}
+
+.Telegram_text {
+    padding-top: 10px;
+}
+
+.social_link {
+    color: white;
+    text-decoration: none;
+    font-weight: 900;
+    margin-bottom: 8px;
+    display: inline-block;
+}
+
+.social_link:hover {
+    color: #e4aa45;
+    border-bottom: 1px dashed;
+    padding-bottom: 1px;
+    margin-bottom: 6px;
+}
+
+.about_me {
+    width: 100%;
+    height: auto;
+    color: #c2c2cf;
+    font-size: 20px;
+
+}
+
+.project_text {
+    padding-top: 20px;
+}
+
+
+
+.project_block {
+    height: 150px;
+}
+
+.project_content {
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+.project_card {
+    height: 100%;
+    flex: 4;
+    text-align: right;
+    color: #939395;
+
+
+}
+
+
+.project_name {
+    text-align: right;
+}
+
+
+.link_project{
+    color: #e4aa45;
+    text-decoration: none;
+
+}
+
+
+@media screen and (max-width: 768px) {
+    .main_block {
+        max-width: unset;
+        margin: unset;
+        height: auto;
+        padding: unset;
+        flex-direction: column;
+
+    }
+
+    .left_block {
+        border: unset;
+        border-radius: unset;
+
+    }
+
+    .right_content {
+        overflow: unset;
+
+    }
+
+    .right_block {
+        border: unset;
+    }
+
+    .body {
+        overflow-x: unset;
+    }
+
+}
+
