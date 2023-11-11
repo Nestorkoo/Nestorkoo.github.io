@@ -7,6 +7,10 @@ body {
     color: white !important;
 }
 
+html { 
+    scroll-behavior: smooth;
+}
+
 .main_block {
     max-width: 990px;
     height: 830px;
@@ -135,6 +139,7 @@ body {
     display: flex;
     align-items: center;
 }
+
 
 
 
